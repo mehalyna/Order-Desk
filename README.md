@@ -80,14 +80,36 @@ No one needs to create data. Everything is visible from the first page load.
 |---|---|
 | Framework | Next.js 15, App Router |
 | Language | TypeScript |
-| UI library | Material UI (MUI) — same as `lf-client` |
-| Data layer | MongoDB in-memory, seeded on startup |
-| Validation | Zod schemas |
-| Dependency injection | Awilix container |
+| UI library | Material UI (MUI) v9 |
+| Data layer | MongoDB in-memory via `mongodb-memory-server`, seeded on startup |
+| Validation | Zod v4 schemas |
+| Service factory | Simple factory pattern in `app/lib/di/services.ts` |
 | i18n | Single locale (English) — no language switcher to distract |
 | Setup | `npm install` + `npm run dev`, one terminal, one URL |
 
-The stack is identical to `lf-client`. Participants who completed Sessions 1–3 open this project and immediately recognise the folder structure, the service pattern, and the seed file location. No reorientation needed.
+The stack is similar to `lf-client`. Participants who completed Sessions 1–3 will recognize the folder structure, the service pattern, and the seed file location.
+
+---
+
+### Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the portal.
+
+The database seeds automatically on first load with sample customers, products, and orders.
 
 ---
 

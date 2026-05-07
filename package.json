@@ -1,0 +1,44 @@
+{
+  "name": "order-desk",
+  "version": "1.0.0",
+  "description": "A small internal portal for processing online store orders. Managers accept orders, update their status, and view customer details and order contents. Customers already exist in the seed data — no registration flow needed.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehalyna/Order-Desk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehalyna/Order-Desk/issues"
+  },
+  "homepage": "https://github.com/mehalyna/Order-Desk#readme",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^9.0.1",
+    "@mui/material-nextjs": "^9.0.1",
+    "awilix": "^13.0.3",
+    "mongodb": "^7.2.0",
+    "next": "^16.2.5",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.5",
+    "mongodb-memory-server": "^11.1.0",
+    "typescript": "^6.0.3"
+  }
+}
